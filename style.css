@@ -8,6 +8,8 @@
     width: 900px;
     height: 600px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #header {
@@ -19,7 +21,6 @@
 
 #img_1 {
     background: #B2F593;
-    float: left;
     width: 30%;
     height: 75%;
     line-height: 450px;
@@ -27,7 +28,6 @@
 
 #img_2 {
     background: #FFF574;
-    float: left;
     width: 40%;
     height: 75%;
     line-height: 450px;
@@ -35,19 +35,14 @@
 
 #text {
     background: #F491DA;
-    float: left;
     width: 30%;
     height: 75%;
     line-height: 450px;
 }
 
-#clear {
-    clear: both;
-}
-
 #footer {
     background: #FFDF92;
     height: 12.5%;
-    width: 900px;
+    width: 100%;
     line-height: 75px;
 }
